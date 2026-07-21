@@ -114,7 +114,7 @@ Correlated browser cookies, email identifiers, and HTTP activity across multiple
 
 Combined all recovered evidence to identify the source responsible for the anonymous messages.
 
-# Key Findings
+## Key Findings
 
 - Successfully validated forensic evidence using SHA-256.
 - Reconstructed deleted anonymous messages from HTTP traffic.
