@@ -1,5 +1,7 @@
 # Network-Analysis-Using-Wireshark
 
+## Scenario
+
 This lab is published through DigitalCorpora.org. Thanks to digitalcorpora.org and to Ajoy Ghosh at the UNSW Canberra for this work!
 
 You are a security administrator at the prestigious (and fictional) Nitroba State University.
@@ -13,3 +15,31 @@ The mail header shows that the mail message originated from the IP address 140.2
 Because several email messages appear to come from the IP address, Nitroba decides to place a network sniffer on the ethernet port. All of the packets are logged. On Monday 7/21 Tuckridge received another harassing email. But this time instead of receiving it directly, the perpetrator sent it through a web-based service called “willselfdestruct.com.” The website briefly shows the message to Tuckridge, and then the website reports that the “Message Has Been Destroyed.”
 
 You have been given the screen shots, the packets that were collected from the Ethernet tap, and the Chem 109 roster. Your job is to determine if one of the students in the class was responsible for the harassing email and to provide clear, conclusive evidence to support your conclusion. Please find slides with more details and the required pcap file through https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario/
+
+## Objectives
+
+- Verify forensic integrity of the evidence
+- Analyze captured network traffic (.pcap)
+- Identify malicious HTTP communications
+- Reconstruct deleted web messages
+- Trace the originating device using IP and MAC addresses
+- Correlate network evidence with user activity
+- Produce a complete forensic investigation report
+
+## Skills Demonstrated
+
+- Network Forensics
+- Packet Analysis
+- Wireshark
+- HTTP Stream Reconstruction
+- Evidence Integrity Verification (SHA-256)
+- Digital Investigation Methodology
+- Timeline Analysis
+- IOC (Indicator of Compromise) Identification
+- Documentation & Reporting
+
+## Tools Used
+
+- Wireshark 4.4.1
+- Windows Command Prompt
+- SHA-256 Hash Verification (certutil)
