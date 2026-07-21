@@ -16,8 +16,6 @@ Because several email messages appear to come from the IP address, Nitroba decid
 
 You have been given the screen shots, the packets that were collected from the Ethernet tap, and the Chem 109 roster. Your job is to determine if one of the students in the class was responsible for the harassing email and to provide clear, conclusive evidence to support your conclusion. Please find slides with more details and the required pcap file through https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario/
 
---
-
 ## Objectives
 
 - Verify forensic integrity of the evidence
@@ -27,8 +25,7 @@ You have been given the screen shots, the packets that were collected from the E
 - Trace the originating device using IP and MAC addresses
 - Correlate network evidence with user activity
 - Produce a complete forensic investigation report
-  
---
+
 
 ## Skills Demonstrated
 
@@ -42,7 +39,6 @@ You have been given the screen shots, the packets that were collected from the E
 - IOC (Indicator of Compromise) Identification
 - Documentation & Reporting
   
---
 
 ## Tools Used
 
@@ -50,7 +46,6 @@ You have been given the screen shots, the packets that were collected from the E
 - Windows Command Prompt
 - SHA-256 Hash Verification (certutil)
 
---
 
 ## Investigation Workflow
 
@@ -88,7 +83,6 @@ Correlate Browser Cookies
         ▼
 Identify Responsible User
 ```
---
 
 ## Key Investigation Steps
 
@@ -123,7 +117,6 @@ Correlated browser cookies, email identifiers, and HTTP activity across multiple
 
 Combined all recovered evidence to identify the source responsible for the anonymous messages.
 
---
 
 ## Key Findings
 
