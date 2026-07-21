@@ -43,3 +43,139 @@ You have been given the screen shots, the packets that were collected from the E
 - Wireshark 4.4.1
 - Windows Command Prompt
 - SHA-256 Hash Verification (certutil)
+
+## Investigation Workflow
+
+```
+Evidence Acquisition
+        │
+        ▼
+SHA-256 Hash Verification
+        │
+        ▼
+Load PCAP into Wireshark
+        │
+        ▼
+Locate Suspicious Traffic
+        │
+        ▼
+Analyze HTTP Requests
+        │
+        ▼
+Extract Network Artifacts
+(IP • MAC • User-Agent)
+        │
+        ▼
+Follow HTTP Stream
+        │
+        ▼
+Reconstruct Deleted Message
+        │
+        ▼
+Search Related Email Activity
+        │
+        ▼
+Correlate Browser Cookies
+        │
+        ▼
+Identify Responsible User
+```
+
+---
+
+## Key Investigation Steps
+
+### 1. Evidence Verification
+
+Verified the SHA-256 hash of the PCAP file to ensure the evidence had not been altered before analysis.
+
+---
+
+### 2. Packet Analysis
+
+Opened the capture in Wireshark and searched packet contents for unique message strings associated with the harassment.
+
+---
+
+### 3. HTTP Stream Reconstruction
+
+Used **Follow HTTP Stream** to reconstruct the complete communication exchanged with the anonymous messaging website.
+
+---
+
+### 4. Network Artifact Collection
+
+Extracted critical forensic artifacts including:
+
+- Source IP Address
+- MAC Address
+- User-Agent
+- HTTP POST Requests
+- Cookie Values
+- Email Identifiers
+
+---
+
+### 5. Correlation Analysis
+
+Correlated browser cookies, email identifiers, and HTTP activity across multiple packets to attribute the activity to a single device.
+
+---
+
+### 6. Attribution
+
+Combined all recovered evidence to identify the source responsible for the anonymous messages.
+
+---
+
+# Key Findings
+
+- Successfully validated forensic evidence using SHA-256.
+- Reconstructed deleted anonymous messages from HTTP traffic.
+- Identified the originating device using IP and MAC addresses.
+- Correlated browser cookies with network activity.
+- Demonstrated how packet analysis can reveal user attribution despite attempts to remain anonymous.
+
+---
+
+# Project Structure
+
+```
+Network-Forensics-Nitroba-Case/
+│
+├── README.md
+├── report/
+│   └── Network_Forensics_Report.pdf
+│
+├── screenshots/
+│   ├── hash-verification.png
+│   ├── wireshark-analysis.png
+│   ├── http-stream.png
+│   ├── packet-search.png
+│   └── evidence-correlation.png
+│
+└── LICENSE
+```
+
+---
+
+## Learning Outcomes
+
+Through this investigation, I gained hands-on experience with:
+
+- Digital forensic methodology
+- Network packet inspection
+- HTTP protocol analysis
+- Evidence preservation
+- Wireshark filtering techniques
+- Stream reconstruction
+- Network artifact correlation
+- Incident documentation
+
+---
+
+## Disclaimer
+
+This project is based on a fictional academic case study used for educational purposes. It is intended solely to demonstrate practical network forensic investigation techniques and digital evidence analysis.
+
+
