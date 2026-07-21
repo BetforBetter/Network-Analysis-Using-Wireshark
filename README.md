@@ -81,27 +81,19 @@ Correlate Browser Cookies
 Identify Responsible User
 ```
 
----
-
 ## Key Investigation Steps
 
 ### 1. Evidence Verification
 
 Verified the SHA-256 hash of the PCAP file to ensure the evidence had not been altered before analysis.
 
----
-
 ### 2. Packet Analysis
 
 Opened the capture in Wireshark and searched packet contents for unique message strings associated with the harassment.
 
----
-
 ### 3. HTTP Stream Reconstruction
 
 Used **Follow HTTP Stream** to reconstruct the complete communication exchanged with the anonymous messaging website.
-
----
 
 ### 4. Network Artifact Collection
 
@@ -114,19 +106,13 @@ Extracted critical forensic artifacts including:
 - Cookie Values
 - Email Identifiers
 
----
-
 ### 5. Correlation Analysis
 
 Correlated browser cookies, email identifiers, and HTTP activity across multiple packets to attribute the activity to a single device.
 
----
-
 ### 6. Attribution
 
 Combined all recovered evidence to identify the source responsible for the anonymous messages.
-
----
 
 # Key Findings
 
@@ -154,19 +140,6 @@ Network-Forensics-Nitroba-Case/
 │
 └── LICENSE
 ```
-
-## Learning Outcomes
-
-Through this investigation, I gained hands-on experience with:
-
-- Digital forensic methodology
-- Network packet inspection
-- HTTP protocol analysis
-- Evidence preservation
-- Wireshark filtering techniques
-- Stream reconstruction
-- Network artifact correlation
-- Incident documentation
 
 ## Disclaimer
 
