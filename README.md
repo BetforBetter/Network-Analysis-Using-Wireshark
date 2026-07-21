@@ -136,8 +136,6 @@ Combined all recovered evidence to identify the source responsible for the anony
 - Correlated browser cookies with network activity.
 - Demonstrated how packet analysis can reveal user attribution despite attempts to remain anonymous.
 
----
-
 # Project Structure
 
 ```
@@ -157,8 +155,6 @@ Network-Forensics-Nitroba-Case/
 └── LICENSE
 ```
 
----
-
 ## Learning Outcomes
 
 Through this investigation, I gained hands-on experience with:
@@ -171,8 +167,6 @@ Through this investigation, I gained hands-on experience with:
 - Stream reconstruction
 - Network artifact correlation
 - Incident documentation
-
----
 
 ## Disclaimer
 
