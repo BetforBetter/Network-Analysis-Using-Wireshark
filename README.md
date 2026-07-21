@@ -12,6 +12,4 @@ The mail header shows that the mail message originated from the IP address 140.2
 
 Because several email messages appear to come from the IP address, Nitroba decides to place a network sniffer on the ethernet port. All of the packets are logged. On Monday 7/21 Tuckridge received another harassing email. But this time instead of receiving it directly, the perpetrator sent it through a web-based service called “willselfdestruct.com.” The website briefly shows the message to Tuckridge, and then the website reports that the “Message Has Been Destroyed.”
 
-You have been given the screen shots, the packets that were collected from the Ethernet tap, and the Chem 109 roster. Your job is to determine if one of the students in the class was responsible for the harassing email and to provide clear, conclusive evidence to support your conclusion.
-
-Please find slides with more details and the required pcap file through https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario/
+You have been given the screen shots, the packets that were collected from the Ethernet tap, and the Chem 109 roster. Your job is to determine if one of the students in the class was responsible for the harassing email and to provide clear, conclusive evidence to support your conclusion. Please find slides with more details and the required pcap file through https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario/
