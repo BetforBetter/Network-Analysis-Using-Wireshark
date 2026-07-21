@@ -14,6 +14,4 @@ Because several email messages appear to come from the IP address, Nitroba decid
 
 You have been given the screen shots, the packets that were collected from the Ethernet tap, and the Chem 109 roster. Your job is to determine if one of the students in the class was responsible for the harassing email and to provide clear, conclusive evidence to support your conclusion.
 
-Please find slides with more details about the lab through  slides.pdfDownload slides.pdf  link and the requires pcap file through  nitroba.pcapDownload nitroba.pcap link. The hash value for the pcap file is below.
-
-SHA256: 2B77A9EAEFC1D6AF163D1BA793C96DBCCACB04E6BEFDF1A0B01F8C67553EC2FB
+Please find slides with more details and the required pcap file through https://digitalcorpora.org/corpora/scenarios/nitroba-university-harassment-scenario/
